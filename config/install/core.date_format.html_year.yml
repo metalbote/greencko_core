@@ -1,0 +1,7 @@
+langcode: de
+status: true
+dependencies: {  }
+id: html_year
+label: 'HTML Jahr'
+locked: true
+pattern: 'Y'

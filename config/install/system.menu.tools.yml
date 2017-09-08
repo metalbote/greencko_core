@@ -1,0 +1,7 @@
+langcode: de
+status: true
+dependencies: {  }
+id: tools
+label: Tools
+description: 'Links zu Benutzerwerkzeugen, meist von Modulen hinzugefügt'
+locked: true

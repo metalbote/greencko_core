@@ -1,0 +1,4 @@
+access greencko settings:
+  description: 'View and change greencko configuration'
+  title: 'Access greencko settings '
+  restrict access: TRUE

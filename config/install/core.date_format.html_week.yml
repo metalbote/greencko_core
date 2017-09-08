@@ -1,0 +1,7 @@
+langcode: de
+status: true
+dependencies: {  }
+id: html_week
+label: 'HTML Woche'
+locked: true
+pattern: Y-\WW

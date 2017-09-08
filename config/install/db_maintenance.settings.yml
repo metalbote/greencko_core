@@ -1,0 +1,13 @@
+cron_last_run: 1505351376
+cron_frequency: 86400
+use_time_interval: true
+time_interval_start: '01:30'
+time_interval_end: '02:30'
+all_tables: 1
+write_log: 0
+langcode: de
+table_list_greencko: {  }
+actions: null
+form_build_id: form-e6v-p3Nt1ayowxn7utQcqteZB7635e9lEhPuAf9i7CY
+form_token: taLAYgLLLK8m5rjnAW6Dgefd2YX_MBDqXEP_QU5PGpQ
+form_id: db_maintenance_admin_settings

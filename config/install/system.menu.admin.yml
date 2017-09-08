@@ -1,0 +1,7 @@
+langcode: de
+status: true
+dependencies: {  }
+id: admin
+label: Verwaltung
+description: 'Links für administrative Aufgaben'
+locked: true

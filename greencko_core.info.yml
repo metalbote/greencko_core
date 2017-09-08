@@ -1,0 +1,34 @@
+name: Kern
+description: 'Provides core components required by other features.'
+type: module
+core: 8.x
+configure: greencko_core.admin_config_greencko
+dependencies:
+  - backup_migrate
+  - block
+  - block_content
+  - comment
+  - contact
+  - field
+  - file
+  - greencko_media
+  - greencko_pages
+  - greencko_user
+  - image
+  - language
+  - locale
+  - menu_link_content
+  - node
+  - path
+  - rdf
+  - responsive_image
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - tour
+  - user
+  - views
+  - views_ui
+version: 8.x-1.0
+package: 'Greencko Drupal Distribution'
