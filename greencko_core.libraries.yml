@@ -1,0 +1,5 @@
+greencko-core:
+  version: VERSION
+  css:
+    theme:
+      css/greencko_core.css: {}

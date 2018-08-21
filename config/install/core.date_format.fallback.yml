@@ -1,7 +1,7 @@
-langcode: de
+langcode: en
 status: true
 dependencies: {  }
 id: fallback
-label: Ersatz-Datumsformat
+label: 'Fallback date format'
 locked: true
 pattern: 'D, m/d/Y - H:i'

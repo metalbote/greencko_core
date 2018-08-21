@@ -1,7 +1,7 @@
-langcode: de
+langcode: en
 status: true
 dependencies: {  }
 id: html_week
-label: 'HTML Woche'
+label: 'HTML Week'
 locked: true
 pattern: Y-\WW

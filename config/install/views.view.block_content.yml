@@ -1,13 +1,13 @@
-langcode: de
+langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - user
 id: block_content
-label: 'Bibliothek benutzerdefinierter Blöcke'
+label: 'Custom block library'
 module: views
-description: 'Benutzerdefinierte Blöcke finden und verwalten.'
+description: 'Find and manage custom blocks.'
 tag: default
 base_table: block_content_field_data
 base_field: id
@@ -119,7 +119,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Block-Beschreibung
+          label: 'Block description'
           exclude: false
           alter:
             alter_text: false
@@ -184,7 +184,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Block-Typ
+          label: 'Block type'
           exclude: false
           alter:
             alter_text: false
@@ -363,7 +363,7 @@ display:
           exposed: true
           expose:
             operator_id: info_op
-            label: Block-Beschreibung
+            label: 'Block description'
             description: ''
             use_operator: false
             operator: info_op
@@ -403,7 +403,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Block-Typ
+            label: 'Block type'
             description: ''
             use_operator: false
             operator: type_op
@@ -432,7 +432,7 @@ display:
           entity_field: type
           plugin_id: bundle
       sorts: {  }
-      title: 'Bibliothek benutzerdefinierter Blöcke'
+      title: 'Custom block library'
       header: {  }
       footer: {  }
       empty:
@@ -445,7 +445,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Es sind keine benutzerdefinierten Blöcke verfügbar. '
+          content: 'There are no custom blocks available.'
           plugin_id: text_custom
         block_content_listing_empty:
           admin_label: ''
@@ -468,7 +468,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_1:
     display_plugin: page
@@ -480,7 +480,7 @@ display:
       path: admin/structure/block/block-content
       menu:
         type: tab
-        title: 'Bibliothek benutzerdefinierter Blöcke'
+        title: 'Custom block library'
         description: ''
         parent: block.admin_display
         weight: 0
@@ -493,5 +493,5 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }

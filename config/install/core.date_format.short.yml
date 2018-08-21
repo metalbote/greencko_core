@@ -1,7 +1,7 @@
-langcode: de
+langcode: en
 status: true
 dependencies: {  }
 id: short
-label: 'Standard-Datum kurz'
+label: 'Default short date'
 locked: false
 pattern: 'm/d/Y - H:i'

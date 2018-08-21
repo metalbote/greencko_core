@@ -1,3 +1,2 @@
-admin: seven
-default: greencko_ui
-langcode: de
+admin: greencko_ui
+default: vartheme

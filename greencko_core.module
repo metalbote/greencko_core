@@ -1,0 +1,13 @@
+<?php
+
+use Drupal\block\Entity\Block;
+use Drupal\user\Entity\User;
+use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function greencko_core_page_attachments_alter(array &$page) {
+    $page['#attached']['library'][] = 'greencko_core/greencko-core';
+}

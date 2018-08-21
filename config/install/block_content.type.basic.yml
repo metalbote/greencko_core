@@ -1,7 +1,7 @@
-langcode: de
+langcode: en
 status: true
 dependencies: {  }
 id: basic
-label: 'Normaler Block'
-revision: 0
-description: 'Ein normaler Block enthält einen Titel und einen Textkörper.'
+label: 'Basic block'
+revision: 1
+description: 'A basic block contains a title and a body.'

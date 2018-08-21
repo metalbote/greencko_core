@@ -1,34 +1,36 @@
-name: Kern
+name: 'Greencko Core'
 description: 'Provides core components required by other features.'
 type: module
 core: 8.x
-configure: greencko_core.admin_config_greencko
+version: 8.x-6.x-dev
+package: Greencko
 dependencies:
-  - backup_migrate
-  - block
+  - automated_cron
+  - blazy
+  - block_class
   - block_content
+  - captcha
   - comment
-  - contact
+  - diff
+  - ds
+  - ds_extras
+  - embed
+  - entity_embed
   - field
-  - file
-  - greencko_media
-  - greencko_pages
-  - greencko_user
-  - image
-  - language
-  - locale
-  - menu_link_content
+  - field_group
+  - field_layout
+  - layout_discovery
+  - libraries
   - node
-  - path
-  - rdf
-  - responsive_image
+  - pathologic
+  - recaptcha
+  - security_review
   - shortcut
   - system
   - taxonomy
   - text
   - tour
+  - tracker
+  - ultimate_cron
   - user
   - views
-  - views_ui
-version: 8.x-1.0
-package: 'Greencko Drupal Distribution'

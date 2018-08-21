@@ -1,7 +1,0 @@
-langcode: de
-status: true
-dependencies: {  }
-id: developer
-label: Developer
-weight: 2
-is_admin: true

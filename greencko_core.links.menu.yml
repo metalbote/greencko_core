@@ -1,12 +1,11 @@
-greencko_core.admin_config_greencko:
-  title: 'greencko Drupal'
-  route_name: greencko_core.admin_config_greencko
+greencko_core.settings_index:
+  title: 'Greencko settings'
+  description: 'Configuring Greencko settings.'
   parent: system.admin_config
-  description: 'greencko Drupal settings.'
-
-greencko_core.settings:
-  title: 'greencko Drupal settings'
-  parent: greencko_core.admin_config_greencko
-  description: 'Change settings of CM Example.'
-  route_name: greencko_core.settings
-  weight: 0
+  route_name: greencko_core.settings_index
+greencko_core.general_settings:
+  title: 'Greencko general settings'
+  description: 'Configuring Greencko general settings.'
+  parent: greencko_core.settings_index
+  route_name: greencko_core.general_settings
+  weight: -1000
