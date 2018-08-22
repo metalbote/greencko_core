@@ -8,7 +8,9 @@ pinegrow.json
 .idea
 
 ## ignore packager folders
-node_modules
+bower_components/
+node_modules/
+package-lock.json
 
 ## ignore tempory folders
 tmp
