@@ -1,13 +1,33 @@
 <?php
+/**
+ * @file
+ * Provides Core definitions.
+ */
 
 use Drupal\block\Entity\Block;
 use Drupal\user\Entity\User;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Url;
+use Drupal\Core\Asset\AttachedAssetsInterface;
 
 /**
  * Implements hook_page_attachments_alter().
+ *
+ * {@inheritdoc}
  */
-function greencko_core_page_attachments_alter(array &$page) {
-    $page['#attached']['library'][] = 'greencko_core/greencko-core';
+function greencko_core_page_attachments_alter(array &$attachments) {
+//  $attachments['#attached']['library'][] = 'greencko_core/contextual';
+}
+
+
+/*
+ * Implements hook_css_alter().
+ *
+ *  {@inheritdoc}
+ */
+function greencko_core_css_alter(&$css, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+//  unset($css[drupal_get_path('theme', 'stable') . '/css/contextual/contextual.theme.css']);
+//  unset($css[drupal_get_path('theme', 'stable') . '/css/contextual/contextual.icons.theme.css']);
+//  unset($css[drupal_get_path('module', 'contextual') . '/css/contextual.theme.css']);
+//  unset($css[drupal_get_path('module', 'contextual') . '/css/contextual.icons.theme.css']);
 }

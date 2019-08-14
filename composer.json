@@ -1,6 +1,6 @@
 {
-    "name": "metalbote/greencko_core",
-    "description": "This is the Greencko Core. Provides core components required by other features.",
+    "name": "greencko/greencko_core",
+    "description": "This is the Greencko Core module. Provides core components required by other features.",
     "type": "drupal-module",
     "homepage": "https://github.com/metalbote/greencko_core",
     "license": "GPL-2.0-or-later",
@@ -31,7 +31,11 @@
         "composer/installers": "^1.5.0",
         "oomphinc/composer-installers-extender": "^1.1.2",
         "cweagans/composer-patches": "^1.6.4",
-        "drupal/drupal-library-installer-plugin": "^0.3"
+        "drupal/drupal-library-installer-plugin": "^0.3",
+        "drupal/varbase_core": "^6.0",
+        "drupal/config_update": "^1.6",
+        "drupal/backup_migrate": "^4.0",
+        "drupal/config_inspector": "^1.0@beta"
     },
     "extra": {
         "branch-alias": {
@@ -42,6 +46,21 @@
             "npm-asset"
         ],
         "enable-patching": true,
-        "composer-exit-on-patch-failure": true
+        "composer-exit-on-patch-failure": true,
+        "patches": {
+            "drupal/core": {
+                "Issue #2449895: Imported PO files have no public URL but have a link at admin/content/files": "https://www.drupal.org/files/issues/2018-07-03/2449895-42.patch",
+                "Issue #2868193: Account administration pages' language negotiation causes 'access denied' in toolbar subtree caching.": "https://www.drupal.org/files/issues/2868193-10.patch",
+                "Issue #2915728: Comment update core 8.4": "https://www.drupal.org/files/issues/comment-action_exist-2915728-13.patch",
+                "Issue #2998440: DefaultSectionStorage::getSectionListFromId() violates SectionStorageInterface": "https://www.drupal.org/files/issues/2018-09-10/drupal-8.6.x-layout_builder-check_instanceof_sectionlistinterface-2998440-2.patch",
+                "Issue #2924112: Support class definition on field_layout": "https://www.drupal.org/files/issues/dynamic-regions-2924112-2.patch"
+            },
+            "drupal/panels": {
+                "Issue #2878684: Use String.match to correlate regions when switching Layouts in Panels IPE": "https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch"
+            },
+            "drupal/panelizer": {
+                "Issue #2778565: Multilingual support for Panelizer": "https://www.drupal.org/files/issues/2018-08-13/panelizer-multilingual-2778565-38.patch"
+            }
+        }
     }
 }

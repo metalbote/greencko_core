@@ -1,11 +1,13 @@
 greencko_core.settings_index:
   title: 'Greencko settings'
-  description: 'Configuring Greencko settings.'
-  parent: system.admin_config
   route_name: greencko_core.settings_index
-greencko_core.general_settings:
-  title: 'Greencko general settings'
-  description: 'Configuring Greencko general settings.'
+  parent: system.admin_config
+  description: 'Configuring Greencko settings.'
+  weight: -99
+
+greencko_core.settings_general:
+  title: 'General settings'
   parent: greencko_core.settings_index
-  route_name: greencko_core.general_settings
-  weight: -1000
+  description: 'Configuring general settings.'
+  route_name: greencko_core.settings_general
+  weight: 0

@@ -4,11 +4,12 @@ greencko_core.settings_index:
     _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
     _title: 'Greencko settings'
   requirements:
-    _permission: 'access greencko settings'
-greencko_core.general_settings:
+    _permission: 'access Greencko settings'
+
+greencko_core.settings_general:
   path: '/admin/config/greencko/settings'
   defaults:
-    _form: '\Drupal\greencko_core\Form\GreenckoGeneralSettingsForm'
+    _form: '\Drupal\greencko_core\Form\GeneralSettingsForm'
     _title: 'Greencko general settings'
   requirements:
-    _permission: 'access greencko settings'
+    _permission: 'access Greencko settings'

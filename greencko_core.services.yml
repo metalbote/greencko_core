@@ -1,0 +1,5 @@
+services:
+  greencko_core.route_subscriber:
+    class: Drupal\greencko_core\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

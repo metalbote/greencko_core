@@ -1,6 +1,0 @@
-[submodule "modules/greencko_webform"]
-	path = modules/greencko_webform
-	url = https://github.com/metalbote/greencko_webform.git
-[submodule "modules/greencko_development"]
-	path = modules/greencko_development
-	url = https://github.com/metalbote/greencko_development.git

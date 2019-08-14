@@ -1,5 +1,11 @@
-greencko-core:
+contextual:
   version: VERSION
   css:
     theme:
-      css/greencko_core.css: {}
+      css/contrib/contextual.theme.css: {}
+      css/contrib/contextual.icons.theme.css: {}
+  js:
+    js/contextual.js: {}
+  dependencies:
+    - contextual/drupal.contextual-links
+    - contextual/drupal.contextual-toolbar

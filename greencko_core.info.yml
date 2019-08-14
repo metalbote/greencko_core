@@ -1,28 +1,17 @@
-name: 'Greencko Core'
-description: 'Provides core components required by other features.'
+name: Core
+description: 'Enthält Core-Komponenten, die für andere Features erforderlich sind.'
 type: module
 core: 8.x
-version: 8.x-6.x-dev
+version: 8.x-0.4
 package: Greencko
 dependencies:
-  - automated_cron
-  - blazy
-  - block_class
-  - captcha
-  - comment
-  - ds_extras
-  - embed
-  - entity_embed
-  - field_layout
-  - layout_discovery
-  - libraries
-  - pathologic
-  - recaptcha
-  - security_review
-  - shortcut
+  - 'backup_migrate:backup_migrate'
+  - 'config_inspector:config_inspector'
+  - 'config_update:config_update'
+  - 'drupal:image'
+  - 'drupal:responsive_image'
+  - 'drupal:system'
+  - 'drupal:views'
   - system
-  - tour
-  - tracker
-  - ultimate_cron
-  - views
+  - user
 
